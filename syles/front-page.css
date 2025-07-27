@@ -3,42 +3,52 @@ html{
 }
 
 body{
-    margin:0
+    margin:0;
 }
 .container1{
     background-color: #1f2937;
     display: flex;
     flex-direction: column;
+    padding-left: 15%;
+    padding-right: 15%;
+    gap:100px;
+    padding-bottom: 30px;
 }
 .header{
     color: white;
     display: flex;
     justify-content: space-between;
-    padding-left: 32px;
-    padding-right: 32px;
 }
-
 .c1-content{
     display: flex;
     justify-content: center;
-    padding-left: 20%;
-    padding-right: 20%;
 }
 .website-intro{
     flex: 1;
 }
-
+.website-intro h1{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
 button {
   border: none;
   border-radius: 8px;
-  background: rebeccapurple;
+  background: #3882f6;
   color: white;
   padding: 8px 24px;
+}
+.secondary-text{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.intro-image{
+    background-color: grey;
 }
 ul{
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
     padding: 0;
 }
 li{
