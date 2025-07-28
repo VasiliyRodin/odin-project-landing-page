@@ -28,6 +28,7 @@ body{
 .website-intro{
     flex: 1;
 }
+
 .website-intro h1{
     font-size: 48px;
     color: #f9faf8;

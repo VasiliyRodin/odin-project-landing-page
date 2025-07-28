@@ -22,13 +22,11 @@
     display:flex;
     justify-content: space-between;
     gap: 50px;
-    margin: 0; 
+    margin: 0;
+    flex-wrap: wrap;
 }
 .sqr{
     display: flex;
     flex-direction: column;
-    flex: 1;
-}
-.sqr p{
-    word-wrap: break-word;
+    flex: 0 0 100px;
 }
